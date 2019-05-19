@@ -5,4 +5,5 @@ def index():
     """
     Function that returns the index page and its data
     """
-    return render_template ('index.html')
+    Greetings= "Goodmorning Albazeera"
+    return render_template ('index.html', Greeting=Greetings)
