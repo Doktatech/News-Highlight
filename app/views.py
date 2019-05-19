@@ -5,8 +5,8 @@ def index():
     """
     Function that returns the index page and its data
     """
-    Greetings= "Goodmorning Albazeera"
-    return render_template ('index.html', Greeting=Greetings)
+    title ='Home-Everywhere,Everytime News Room'
+    return render_template ('index.html',title = title)
 @app.route('/newssites/<news_id>')
 def newssites(news_id):
     """
