@@ -1,5 +1,7 @@
 class Sources:
-    """Sources class to define the news source object"""
+    """
+        A class for definining a new onject about the source object
+    """
 
     def __init__(self, source_id, name, description, url, category, language, country):
         self.source_id = source_id
@@ -12,7 +14,9 @@ class Sources:
 
 
 class Articles:
-    """Articles class to define the articles object"""
+    """
+    A class that defines the article object
+    """
 
     def __init__(self, source_id, author, title, description, urlToImage, url, date):
 
