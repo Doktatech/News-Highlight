@@ -10,7 +10,7 @@ This is a web application that shows various news from around the world from sel
 *
 
 ## SetUp / Installation Requirements
-* Launch the app directly from [Everywhere Newsroom]
+* Launch the app directly from [Everywhere Newsroom] https://everywhere-newsroom.herokuapp.com/
 
 ## Technologies Used
 * ```Flask```
