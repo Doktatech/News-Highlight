@@ -15,7 +15,7 @@ def index():
 @main.route('/articles/<source_id>')
 def source(source_id):
     """
-    View for top story articles
+    View for top story articles on from request
     """
     # articles = get_articles('articles')
     source_and_articles = get_articles(source_id)
